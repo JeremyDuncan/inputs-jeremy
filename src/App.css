@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -19,8 +21,8 @@ body {
 }
 .text-box {
   height: 30px;
-  width: 400px;
-  margin: 30px;
+  width: 300px;
+  margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px 4px black;
   border: 3px solid rgb(52, 166, 186);
@@ -29,7 +31,7 @@ body {
 .module-container {
   display: flex;
   flex-direction: row;
-  width: 100%;
+
   padding: 10px;
   gap: 60px;
   border-radius: 10px;
@@ -41,7 +43,7 @@ body {
   color: rgb(70, 154, 92);
 }
 .robot-img {
-  width: 300px;
+  width: 100px;
   display: flex;
   border-radius: 25px;
 }
